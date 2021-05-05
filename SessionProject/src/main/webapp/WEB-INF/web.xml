@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>SessionProject</display-name>
+  <welcome-file-list>
+    <welcome-file>MAIN.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ClothServ</display-name>
+    <servlet-name>ClothServ</servlet-name>
+    <servlet-class>ClothServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClothServ</servlet-name>
+    <url-pattern>/clothserv</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckServ</display-name>
+    <servlet-name>CheckServ</servlet-name>
+    <servlet-class>CheckServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckServ</servlet-name>
+    <url-pattern>/checkserv</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ElectServ</display-name>
+    <servlet-name>ElectServ</servlet-name>
+    <servlet-class>ElectServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ElectServ</servlet-name>
+    <url-pattern>/electserv</url-pattern>
+  </servlet-mapping>
+</web-app>
